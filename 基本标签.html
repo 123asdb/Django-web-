@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+    <!--1.div:用于布局无具体含义-->
+    <div>
+        abc
+        <div>ade</div>
+    </div>
+
+    <!--2.hx:标题从1到6级，一级最大，六级最小，会自动加粗，有默认字号-->
+    <h1>前段课程内容</h1>
+    <h2>Django开发</h2>
+    <h6>前端开发</h6>
+
+    <!--3.p:表示一个连续段落，结尾换行 -->
+    <!--4.br:表示换行符-->
+    <p>现将最常用的快捷键挑出来备忘，既能方便记忆，又能提高工作效率。<br>
+        1. ctrl + shift + n: 打开工程中的文件，目的是打开当前工程下任意目录的文件。<br>
+        2. ctrl + j: 输出模板 <br>
+        3. ctrl + b: 跳到变量申明处 <br>
+        4. ctrl + alt + T: 围绕包裹代码(包括zencoding的Wrap with Abbreviation) <br>
+        5. ctrl + []: 匹配 {}[] <br>
+        6. ctrl + F12: 可以显示当前文件的结构 <br>
+        7. ctrl + x: 剪切(删除)行，不选中，直接剪切整个行，如果选中部分内容则剪切选中的内容</p>
+
+
+    <p title="段落">windows下的设置方法
+        快捷键配置
+        点击“File”-> “settings”
+        Webstorm预置了其他编辑器的快捷键配置，可以点击
+        默认配置-Eclipse的常用快捷键对照表
+        查找/代替
+    </p>
+    <!--5.hr:horizon 生成一条水平线，装饰作用-->
+    <hr />
+    <hr width="80%" align="center" color="blue" height="2px">
+
+    <!--6.a:实现超链接跳转-->                                                                      <!--重点-->
+    <a href="http://baidu.com" title="百度">百度</a>       <!--title是鼠标放上去后提示的结果是什么-->
+    <a href="基本结构.html" title="哈哈，这是基础">基本结构</a>
+    <a href="基本结构.html" title="哈哈，弹出" target="_blank">弹出一个网页</a>      <!--——self 是默认的，在当前页面加载-->
+
+    <img src="https://img01.sogoucdn.com/net/a/04/link?url=https%3A%2F%2Fi02piccdn.sogoucdn.com%2Fc271f0de8070cfaf&appid=122" title="漂亮不" alt="图片加载失败" />
+    <img src="https://img01.sogoucdn.com/net/a/04/link?url=https%3A%2F%2Fi02piccdn.sogoucdn.com%2Fc271f0de8070cfaf&appid=132" alt="加载失败" />
+    <!--8.span:作用与div一样,都是用来布局的，不同的是div会单独占一行，而span不会,用于行内布局-->
+    <div>div1</div>
+    <div>div2</div>
+
+    <span>span1</span>
+    <span>span2</span>
+    <!--ul/ol:列表，前者为有序列表，它们的列表内容都是li标签      ,      如ul>li{li$}*3加tap -->
+    <!--control + D 为复制到下一行 -->
+    <ul>
+        <li>li1</li>
+        <li>li2</li>
+        <li>li3</li>
+    </ul>
+    <!--ol为有序-->
+    <ol>
+        <li>li1</li>
+        <li>li2</li>
+        <li>li3</li>
+    </ol>
+</body>
+</html>
