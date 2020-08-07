@@ -1,6 +1,6 @@
-
 <!doctype html>
 <html lang="en">
+  {% load static %}
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -85,6 +85,7 @@
       <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
       <p>
         <a href="#" class="btn btn-primary my-2">回到主页</a>
+        <a href="{% static 'resume.pdf' %}" class="btn btn-primary my-2">简历</a>           {% comment %} static 表明静态文件{% endcomment %}
       </p>
     </div>
   </section>
